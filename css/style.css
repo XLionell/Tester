@@ -1,0 +1,133 @@
+﻿body
+{
+    background-image: url("../img/pattern.png"); /* background pattern */
+    font-family: 'Open Sans Condensed', sans-serif; /* setting default font from Google Fonts*/
+}
+a
+{
+    text-decoration: none;
+    color: #444444;
+}
+a:hover
+{
+    text-decoration: none;
+    color: #F14E23;
+}
+.main_table /* table */
+{
+    width: 900px; /* width of table */
+    margin-left: auto; /* position = center */
+    margin-right: auto;
+    border: 0px solid #000000; /* border of table */
+}
+.main_table_header, .main_table_footer /* header & footer cells */
+{
+    border: 0px solid #000000; /* border of cells */
+}
+.main_table_header /* header cell */
+{
+    text-align: center;
+}
+.main_table_body /* body cell */
+{
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    padding: 20px;
+}
+.main_table_footer /* footer cell */
+{
+    text-align: right;
+}
+.simple_text /* simple text on page */
+{
+    font-size: 15px;
+    color: #555555;
+}
+.header_text
+{
+    font-size: 23px;
+    color: #444444;
+}
+.header_logo_table
+{
+    width: 100%;
+    /*border: 1px solid #000000;*/
+}
+.header_slogan
+{
+    width: auto;
+}
+#first /* first word in slogan */
+{
+    font: 500% 'tangerine', arial;
+}
+#second /* second word in slogan */
+{
+    font: 400% 'tangerine', arial;
+    position: relative;
+    top: 15px;
+    left: 0px;
+}
+.header_login
+{
+    width: 220px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    /*border-radius: 0px;*/
+    padding: 10px;
+}
+.header_login_table
+{
+    width: 100%;
+    /*box-shadow: 2px 2px 2px #888888;*/
+}
+.menu
+{
+    position: relative;
+    top: 6px;
+    left: -2px;
+}
+.menu_item, .active_menu_item
+{
+    padding: 10px;
+    font-size: 18px;
+}
+.menu_item a, .active_menu_item a
+{
+    text-decoration: none;
+    color: #444444;
+}
+.menu_item
+{
+    /**/
+}
+.menu_item a:hover, .active_menu_item a
+{
+    color: #F14E23;
+}
+.active_menu_item
+{
+    border-left: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    background-color: #FFFFFF;
+}
+.footer_copyright
+{
+    font-size: 15px;
+    text-align: right;
+    color: #444444;
+    margin-right: 30px;
+}
+.text_center
+{
+    text-align: center;
+}
+.button
+{
+    border: 1px solid #DDDDDD;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 15px 5px 15px;
+}

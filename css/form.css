@@ -1,0 +1,15 @@
+.submit, .activesubmit
+{
+    border: 1px solid #DDDDDD;
+    padding: 5px 15px 5px 15px;
+    background-color: #FFFFFF;
+}
+
+.submit
+{
+    color: #35BDF5;
+}
+.activesubmit
+{
+    color: #F14E23;
+}
